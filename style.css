@@ -1,22 +1,30 @@
 .display{
     margin-left:10px;
-    margin-right:10px;
+    
     margin-top: 29px;
     height: 110px;
     width: 330px;
     border-radius: 10px;
-    background-color: azure;
+   
+    background-color: black;
+    color:white;
     display:flex;
+    padding-right: 10px;
     
-    justify-content: center;
+    
+    align-items: end;
+    justify-content: end;
+    font-size: 50px;
+   
     
 }
 .container{
+    padding-left:12px;
     border-radius: 10px;
     margin-top: 50px;
     height: 500px;
     width: 350px;
-    background-color: blanchedalmond;
+    background-color: black;
     display:flex;
     flex-direction: column;
     justify-content:baseline;
@@ -25,4 +33,18 @@
 body{
     display: flex;
     justify-content: center;
+    font-family: Helvetica, sans-serif;
+    font-weight: 10px;
+}
+button{
+    
+    color:white;
+    background-color: #505050;
+    border-radius:70%;
+    border-style: solid;
+    font-size: 40px;
+
+}
+.clear,.multiply,.equal,.divide,.add,.subtract{
+    background-color: #FF9500;
 }
